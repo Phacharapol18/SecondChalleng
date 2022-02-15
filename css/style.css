@@ -1,0 +1,108 @@
+/*************class selector*************/
+.main {
+  background-color: hsl(216, 50%, 16%);
+  width: 40%;
+  margin: 100px auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-radius: 35px;
+}
+.main-img{
+width: 90%;
+margin: 10px auto;
+border-radius: 38px;
+}
+.profile-img {
+  width: 8%;
+  float: left;
+  margin-right: 5px;
+  margin-left: 30px;
+}
+.Creation {
+margin-top: 6px;
+padding-top: 18px;
+}
+.Ethereum {
+  margin-right: 420px;
+  color: hsl(178, 100%, 50%);
+}
+.time {
+  color: hsl(215, 51%, 70%);
+}
+.Name {
+  color: white;
+
+}
+.Name:hover {
+  color: hsl(178, 100%, 50%);
+}
+.main-img:hover {
+  background-color: hsl(215, 51%, 70%);
+}
+.attribution {
+  color: white;
+}
+.by {
+  margin-right: 40px;
+}
+
+/************element selector**********/
+body{
+  text-align: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+p {
+  margin-left: 30px;
+  text-align: left;
+  font-size: 1.25rem;
+  color: hsl(215, 51%, 70%);
+}
+h1 {
+  margin-left: 30px;
+  text-align: left;
+  color: White;
+  font-size: 2.5rem;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+hr {
+  width: 90%;
+  border-width: 2px;
+  border-style: solid none none;
+  border-color: hsl(215, 32%, 27%);
+}
+a {
+  text-decoration: none;
+  color: hsl(215, 51%, 70%);
+  font-weight: 700;
+}
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+/**********media***********/
+@media (max-width: 960px) {
+  .main {
+    width: 90%;
+  }
+}
+@media (min-width:961px)and (max-width: 1080px) {
+  .main {
+    width: 75%;
+  }
+}
+@media (min-width:1080px)and (max-width: 1560px) {
+  .main {
+    width: 57%;
+  }
+}
+@media (max-width: 690px) {
+  .main {
+    width: 100%;
+  }
+  .Ethereum {
+    margin: 0 auto;
+    padding: 0 2%;
+  }
+}
